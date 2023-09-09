@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SignUp Here"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="35sp"
+            android:background="@drawable/border"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="60dp"/>
+
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#6c757d"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:hint="Enter email"
+            android:layout_marginBottom="30dp"
+            />
+
+        <EditText
+            android:id="@+id/regPass"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:textColorHint="#6c757d"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:hint="Password"
+            android:layout_marginBottom="60dp"/>
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="250dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Sign Up"
+            android:layout_marginBottom="50dp"
+            />
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:background="@drawable/frag_line"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            />
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="20sp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-55dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@color/white"
+            />
+
+        <TextView
+            android:id="@+id/loginLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Log in"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

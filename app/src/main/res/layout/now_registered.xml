@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/ShowData"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textSize="28sp"
+            android:text="Great, You're registered."
+            android:gravity="center"
+            android:background="@drawable/border"
+            />
+        <TextView
+            android:id="@+id/gotoLogNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Go to Log in Page."
+            android:textColorHint="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
